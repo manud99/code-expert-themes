@@ -7,4 +7,6 @@ dist/editor.css
 dist/mix-manifest.json
 dist/themes/
 dist/images/
+
+# VS code configuration
 .vscode/
