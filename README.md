@@ -31,7 +31,7 @@ Please feel free to contribute your custom theme. Just make sure to follow some 
 ## Recompile ACE themes
 
 1. Copy the `css/` folder from https://github.com/ajaxorg/ace-builds into `./postcss/themes`.
-2. Run `node change-classes.mjs` to change all theme class names to `#ace-editor`.
+2. Run `node scripts/change-classes.mjs` to change all theme class names to `#ace-editor`.
 3. Run `npm run prod` to process all scripts and save them in the `dist/` folder.
 
 ## Disclaimer
