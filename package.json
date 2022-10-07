@@ -6,7 +6,7 @@
     "dev": "mix",
     "watch": "mix watch",
     "prod": "mix --production",
-    "prettier": "prettier --write dist/background.js dist/popup.js dist/popup.html dist/popup.css postcss/custom/*"
+    "prettier": "prettier --write webpack.mix.js dist/background.js dist/popup.js dist/popup.html dist/popup.css postcss/custom/*"
   },
   "keywords": [],
   "author": "",
