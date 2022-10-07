@@ -1,0 +1,99 @@
+#ace-editor .ace_gutter-active-line {
+  background-color: #3C3836;
+}
+
+#ace-editor {
+  color: #EBDAB4;
+  background-color: #1D2021;
+}
+
+#ace-editor .ace_invisible {
+  color: #504945;
+}
+
+#ace-editor .ace_marker-layer .ace_selection {
+  background: rgba(179, 101, 57, 0.75)
+}
+
+#ace-editor.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px #002240;
+}
+
+#ace-editor .ace_keyword {
+  color: #8ec07c;
+}
+
+#ace-editor .ace_comment {
+  font-style: italic;
+  color: #928375;
+}
+
+#ace-editor .ace-statement {
+  color: red;
+}
+
+#ace-editor .ace_variable {
+  color: #84A598;
+}
+
+#ace-editor .ace_variable.ace_language {
+  color: #D2879B;
+}
+
+#ace-editor .ace_constant {
+  color: #C2859A;
+}
+
+#ace-editor .ace_constant.ace_language {
+  color: #C2859A;
+}
+
+#ace-editor .ace_constant.ace_numeric {
+  color: #C2859A;
+}
+
+#ace-editor .ace_string {
+  color: #B8BA37;
+}
+
+#ace-editor .ace_support {
+  color: #F9BC41;
+}
+
+#ace-editor .ace_support.ace_function {
+  color: #F84B3C;
+}
+
+#ace-editor .ace_storage {
+  color: #8FBF7F;
+}
+
+#ace-editor .ace_keyword.ace_operator {
+  color: #EBDAB4;
+}
+
+#ace-editor .ace_punctuation.ace_operator {
+  color: yellow;
+}
+
+#ace-editor .ace_marker-layer .ace_active-line {
+  background: #3C3836;
+}
+
+#ace-editor .ace_marker-layer .ace_selected-word {
+  border-radius: 4px;
+  border: 8px solid #3f475d;
+}
+
+#ace-editor .ace_print-margin {
+  width: 5px;
+  background: #3C3836;
+}
+
+#ace-editor .ace_indent-guide {
+  background: url("../gruvbox-1.png") right repeat-y;
+}
+
+#ace-editor .ace_indent-guide-active {
+  background: url("../gruvbox-2.png") right repeat-y;
+}

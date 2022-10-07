@@ -1,0 +1,164 @@
+#ace-editor .ace_gutter {
+    background: #282c34;
+    color: #6a6f7a
+}
+
+#ace-editor .ace_print-margin {
+    width: 1px;
+    background: #e8e8e8
+}
+
+#ace-editor {
+    background-color: #282c34;
+    color: #abb2bf
+}
+
+#ace-editor .ace_cursor {
+    color: #528bff
+}
+
+#ace-editor .ace_marker-layer .ace_selection {
+    background: #3d4350
+}
+
+#ace-editor.ace_multiselect .ace_selection.ace_start {
+    box-shadow: 0 0 3px 0 #282c34;
+    border-radius: 2px
+}
+
+#ace-editor .ace_marker-layer .ace_step {
+    background: #c6dbae
+}
+
+#ace-editor .ace_marker-layer .ace_bracket {
+    margin: -1px 0 0 -1px;
+    border: 1px solid #747369
+}
+
+#ace-editor .ace_marker-layer .ace_active-line {
+    background: rgba(76, 87, 103, .19)
+}
+
+#ace-editor .ace_gutter-active-line {
+    background-color: rgba(76, 87, 103, .19)
+}
+
+#ace-editor .ace_marker-layer .ace_selected-word {
+    border: 1px solid #3d4350
+}
+
+#ace-editor .ace_fold {
+    background-color: #61afef;
+    border-color: #abb2bf
+}
+
+#ace-editor .ace_keyword {
+    color: #c678dd
+}
+
+#ace-editor .ace_keyword.ace_operator {
+    color: #c678dd
+}
+
+#ace-editor .ace_keyword.ace_other.ace_unit {
+    color: #d19a66
+}
+
+#ace-editor .ace_constant.ace_language {
+    color: #d19a66
+}
+
+#ace-editor .ace_constant.ace_numeric {
+    color: #d19a66
+}
+
+#ace-editor .ace_constant.ace_character {
+    color: #56b6c2
+}
+
+#ace-editor .ace_constant.ace_other {
+    color: #56b6c2
+}
+
+#ace-editor .ace_support.ace_function {
+    color: #61afef
+}
+
+#ace-editor .ace_support.ace_constant {
+    color: #d19a66
+}
+
+#ace-editor .ace_support.ace_class {
+    color: #e5c07b
+}
+
+#ace-editor .ace_support.ace_type {
+    color: #e5c07b
+}
+
+#ace-editor .ace_storage {
+    color: #c678dd
+}
+
+#ace-editor .ace_storage.ace_type {
+    color: #c678dd
+}
+
+#ace-editor .ace_invalid {
+    color: #fff;
+    background-color: #f2777a
+}
+
+#ace-editor .ace_invalid.ace_deprecated {
+    color: #272b33;
+    background-color: #d27b53
+}
+
+#ace-editor .ace_string {
+    color: #98c379
+}
+
+#ace-editor .ace_string.ace_regexp {
+    color: #e06c75
+}
+
+#ace-editor .ace_comment {
+    font-style: italic;
+    color: #5c6370
+}
+
+#ace-editor .ace_variable {
+    color: #e06c75
+}
+
+#ace-editor .ace_variable.ace_parameter {
+    color: #d19a66
+}
+
+#ace-editor .ace_meta.ace_tag {
+    color: #e06c75
+}
+
+#ace-editor .ace_entity.ace_other.ace_attribute-name {
+    color: #e06c75
+}
+
+#ace-editor .ace_entity.ace_name.ace_function {
+    color: #61afef
+}
+
+#ace-editor .ace_entity.ace_name.ace_tag {
+    color: #e06c75
+}
+
+#ace-editor .ace_markup.ace_heading {
+    color: #98c379
+}
+
+#ace-editor .ace_indent-guide {
+    background: url("../one_dark-1.png") right repeat-y
+}
+
+#ace-editor .ace_indent-guide-active {
+  background: url("../one_dark-2.png") right repeat-y;
+}

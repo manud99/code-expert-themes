@@ -1,0 +1,9 @@
+# npm files and folders
+node_modules/
+package-lock.json
+
+# generated files
+dist/editor.css
+dist/mix-manifest.json
+dist/themes/
+dist/images/
