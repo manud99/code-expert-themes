@@ -4,21 +4,30 @@ Add more themes to [Code Expert](https://expert.ethz.ch) a tool widely used at E
 
 ![Preview](./docs/preview.png)
 
+## Installation
+
+Install and activate the extension:
+1. Download the latest release from [Releases](https://github.com/manud99/code-expert-themes/releases).
+2. Open [Extensions](chrome://extensions/) and activate developer mode on the top right.
+3. Click on the button "Load unpacked" and select the `dist` folder of this extension.
+4. Activate the extension.
+
 ## Usage information
 
 1. Open a project on [Code Expert](https://expert.ethz.ch).
 2. In the toolbar click on the extension's icon.
 3. Select your preferred theme. You can skip through the list. The IDE's theme is updating simultaneously.
 
-## Manual installation
+## Contributiton
 
-Install and activate the extension:
+Make sure that you have node with at least version 16 installed.
 1. Clone the repository or download the folder.
-2. Open [Extensions](chrome://extensions/) and activate developer mode on the top right.
-3. Click on the button "Load unpacked" and select the `dist` folder of this extension.
-4. Activate the extension.
+2. Install all dependencies with `npm install`.
+3. Run `npm run watch` to start the file watcher.
+4. Make your modifications. To format your code enter `npm run prettier`.
+5. To create a production ready version use `npm run prod`.
 
-## Contribute your custom theme
+### Create your custom theme
 
 Please feel free to contribute your custom theme. Just make sure to follow some principles:
 
